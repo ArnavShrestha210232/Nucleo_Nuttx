@@ -1,0 +1,5 @@
+config EXAMPLES_CAMERA_BRIDGE
+	tristate "Camera Bridge Application"
+	default n
+	---help---
+	  Enables the UART Pass-Through and Camera Capture bridge application.

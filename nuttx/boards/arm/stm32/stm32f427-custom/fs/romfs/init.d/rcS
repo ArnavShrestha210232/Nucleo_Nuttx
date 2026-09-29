@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# echo "Boot script started"
+
+# camera_MSN2 &
+# hello &
+
+# echo "Apps launched"
+echo "MSN Bus boot script started"
+
+# Launch the UART bridge task in the background
+launcher &
+
+echo "MSN Bus Bridge launched"

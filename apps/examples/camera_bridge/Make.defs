@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_CAMERA_BRIDGE),)
+CONFIGURED_APPS += $(APPDIR)/examples/camera_bridge
+endif
